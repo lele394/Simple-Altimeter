@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_grey">#A9A9A9</color>
+
+
+    <!-- New Colors for Satellite Status -->
+    <color name="satellite_red">#FF6B6B</color>
+    <color name="satellite_yellow">#FFD966</color>
+    <color name="satellite_green">#6BCB77</color>
+</resources>
+

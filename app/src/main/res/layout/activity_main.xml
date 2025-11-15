@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1E"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <!-- TOP SECTION (Unchanged) -->
+        <TextView
+            android:id="@+id/navigatorTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAVIGATOR"
+            android:textColor="@android:color/white"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/coordinatesContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/navigatorTitle"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/coordinatesLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="P O S I T I O N"
+                android:textColor="@color/text_grey"
+                android:textSize="14sp"
+                android:letterSpacing="0.1"/>
+
+            <TextView
+                android:id="@+id/coordinatesText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                tools:text="34.0522° N, 118.2437° W" />
+
+            <TextView
+                android:id="@+id/altitudeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                tools:text="250 ±0.0 m" />
+        </LinearLayout>
+
+        <!-- COMPASS (Unchanged) -->
+        <FrameLayout
+            android:id="@+id/compassContainer"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@id/coordinatesContainer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:clipChildren="false">
+
+            <ImageView
+                android:id="@+id/compass_dial"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/compass_dial"
+                android:scaleType="fitCenter"
+                android:src="@drawable/compass_dial" />
+
+            <TextView
+                android:id="@+id/degree_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="56sp"
+                android:textStyle="bold"
+                tools:text="76°" />
+
+            <ImageView
+                android:id="@+id/marker"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginTop="-10dp"
+                android:src="@drawable/compass_marker"
+                android:contentDescription="@string/compass_marker" />
+        </FrameLayout>
+
+
+        <!-- MODIFICATION START: The entire bottom section is replaced with the following -->
+
+        <!-- New Speed Block -->
+        <LinearLayout
+            android:id="@+id/speedContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/compassContainer">
+
+            <TextView
+                android:id="@+id/speedLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:letterSpacing="0.1"
+                android:text="S P E E D"
+                android:textColor="@color/text_grey"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/speedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                tools:text="15 ±0.5 km/h" />
+
+        </LinearLayout>
+
+        <!-- New Satellite Block -->
+
+        <TextView
+            android:id="@+id/satelliteLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.1"
+            android:text="G P S   S I G N A L S"
+            android:textColor="@color/text_grey"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/speedContainer"/>
+
+        <TextView
+            android:id="@+id/satelliteText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/satelliteLabel"
+            tools:text="GPS-01: SNR 35\nGPS-05: SNR 38" />
+
+        <!-- MODIFICATION END -->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

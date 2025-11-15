@@ -1,0 +1,137 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4096 4096" width="4096" height="4096">
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #3f3f3f } 
+		.s1 { fill: #1c1c1c;stroke: #5a5a5a;stroke-miterlimit:100;stroke-width: 25 } 
+		.t2 { font-size: 200px;fill: #9f9a9a;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+		.t3 { font-size: 300px;fill: #ffffff;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+		.t4 { font-size: 300px;fill: #ff0000;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+		.t5 { font-size: 250px;fill: #ffffff;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+		.s6 { fill: none;stroke: #ffffff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 20 } 
+		.s7 { fill: none;stroke: #ffffff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 10 } 
+	</style>
+	<path id="secondary dial" fill-rule="evenodd" class="s0" d="m2047.54 3342.8c-716.28 0-1295.26-578.98-1295.26-1295.26 0-716.28 578.98-1295.26 1295.26-1295.26 716.28 0 1295.26 578.98 1295.26 1295.26 0 716.28-578.98 1295.26-1295.26 1295.26z"/>
+	<path id="digit dial" fill-rule="evenodd" class="s1" d="m2047.54 2832.07c-433.85 0-784.53-350.68-784.53-784.53 0-433.85 350.68-784.53 784.53-784.53 433.85 0 784.53 350.68 784.53 784.53 0 433.85-350.68 784.53-784.53 784.53z"/>
+	<g id="sub card">
+		<text id="SE" style="transform: matrix(-0.707,.707,-0.707,-0.707,2705.609,2705.609)" >
+			<tspan x="-126.7" y="0" class="t2">S</tspan><tspan  y="0" class="t2">E</tspan><tspan  y="0" class="t2">
+</tspan>
+		</text>
+		<text id="SW" style="transform: matrix(-0.707,-0.707,.707,-0.707,1390.391,2701.609)" >
+			<tspan x="-162.4" y="0" class="t2">S</tspan><tspan  y="0" class="t2">W
+</tspan>
+		</text>
+		<text id="NW" style="transform: matrix(.707,-0.707,.707,.707,1390.391,1390.391)" >
+			<tspan x="-173.7" y="0" class="t2">N</tspan><tspan  y="0" class="t2">W
+</tspan>
+		</text>
+		<text id="NE" style="transform: matrix(.707,.707,-0.707,.707,2705.609,1390.391)" >
+			<tspan x="-138" y="0" class="t2">N</tspan><tspan  y="0" class="t2">E
+</tspan>
+		</text>
+	</g>
+	<g id="main card">
+		<text id="E" style="transform: matrix(0,1,-1,0,2978,2048)" >
+			<tspan x="-94.8" y="0" class="t3">E</tspan><tspan  y="0" class="t3">
+</tspan>
+		</text>
+		<text id="S" style="transform: matrix(-1,0,0,-1,2048,2978)" >
+			<tspan x="-95.2" y="0" class="t3">S
+</tspan>
+		</text>
+		<text id="W" style="transform: matrix(0,-1,1,0,1118,2048)" >
+			<tspan x="-148.3" y="0" class="t3">W
+</tspan>
+		</text>
+		<text id="N" style="transform: matrix(1,0,0,1,2048,1118)" >
+			<tspan x="-112.2" y="0" class="t4">N</tspan><tspan  y="0" class="t4">
+</tspan>
+		</text>
+	</g>
+	<g id="angles">
+		<text id="45" style="transform: matrix(.707,.707,-0.707,.707,3069.769,1026.231)" >
+			<tspan x="-159.1" y="0" class="t5">4</tspan><tspan  y="0" class="t5">5
+</tspan>
+		</text>
+		<text id="90" style="transform: matrix(0,1,-1,0,3493,2048)" >
+			<tspan x="-159.1" y="0" class="t5">9</tspan><tspan  y="0" class="t5">0
+</tspan>
+		</text>
+		<text id="135 " style="transform: matrix(-0.707,.707,-0.707,-0.707,3069.769,3069.769)" >
+			<tspan x="-238.6" y="0" class="t5">1</tspan><tspan  y="0" class="t5">3</tspan><tspan  y="0" class="t5">5</tspan><tspan  y="0" class="t5">
+</tspan>
+		</text>
+		<text id="180" style="transform: matrix(-1,0,0,-1,2048,3493)" >
+			<tspan x="-238.6" y="0" class="t5">1</tspan><tspan  y="0" class="t5">8</tspan><tspan  y="0" class="t5">0
+</tspan>
+		</text>
+		<text id="225" style="transform: matrix(-0.707,-0.707,.707,-0.707,1026.231,3069.769)" >
+			<tspan x="-238.6" y="0" class="t5">2</tspan><tspan  y="0" class="t5">2</tspan><tspan  y="0" class="t5">5
+</tspan>
+		</text>
+		<text id="270" style="transform: matrix(0,-1,1,0,603,2048)" >
+			<tspan x="-238.6" y="0" class="t5">2</tspan><tspan  y="0" class="t5">7</tspan><tspan  y="0" class="t5">0
+</tspan>
+		</text>
+		<text id="315" style="transform: matrix(.707,-0.707,.707,.707,1030.284,1026.231)" >
+			<tspan x="-238.6" y="0" class="t5">3</tspan><tspan  y="0" class="t5">1</tspan><tspan  y="0" class="t5">5
+</tspan>
+		</text>
+		<text id="0 copy" style="transform: matrix(1,0,0,1,2048,603)" >
+			<tspan x="-79.5" y="0" class="t5">0
+</tspan>
+		</text>
+	</g>
+	<g id="big">
+		<path id="Shape 1" class="s6" d="m3481.4 611.06l3.54 3.54-204.05 204.04-3.53-3.53zm0 0l3.53 3.53-204.04 204.05-3.54-3.54z"/>
+		<path id="Shape 1 copy" class="s6" d="m4077.64 2045.5v5h-288.57v-5zm0 0v5h-288.56v-5z"/>
+		<path id="Shape 1 copy 2" class="s6" d="m3484.94 3481.4l-3.54 3.54-204.04-204.05 3.53-3.53zm0 0l-3.53 3.53-204.05-204.04 3.54-3.54z"/>
+		<path id="Shape 1 copy 3" class="s6" d="m2050.5 4077.64h-5v-288.57h5zm0 0h-5v-288.56h5z"/>
+		<path id="Shape 1 copy 4" class="s6" d="m614.6 3484.94l-3.54-3.54 204.05-204.04 3.53 3.53zm0 0l-3.53-3.53 204.04-204.05 3.54 3.54z"/>
+		<path id="Shape 1 copy 5" class="s6" d="m18.36 2050.5v-5h288.57v5zm0 0v-5h288.56v5z"/>
+		<path id="Shape 1 copy 6" class="s6" d="m611.06 614.6l3.54-3.54 204.04 204.05-3.53 3.53zm0 0l3.53-3.53 204.05 204.04-3.54 3.54z"/>
+		<path id="Shape 1 copy 7" class="s6" d="m2045.5 18.36h5v288.57h-5zm0 0h5v288.56h-5z"/>
+	</g>
+	<g id="fine">
+		<path id="Shape 1 copy 8" class="s7" d="m2573.15 87.17l2.61 0.7-40.34 150.54-2.6-0.7zm0 0l2.6 0.7-40.33 150.55-2.61-0.7z"/>
+		<path id="Shape 1 copy 9" class="s7" d="m2824.6 172.49l2.5 1.04-59.65 143.99-2.49-1.04zm0 0l2.49 1.04-59.64 143.99-2.49-1.04z"/>
+		<path id="Shape 1 copy 10" class="s7" d="m3062.76 289.91l2.34 1.35-77.93 134.97-2.34-1.35zm0 0l2.34 1.35-77.92 134.97-2.34-1.35z"/>
+		<path id="Shape 1 copy 11" class="s7" d="m3283.56 437.4l2.14 1.64-94.88 123.65-2.14-1.64zm0 0l2.14 1.64-94.88 123.65-2.14-1.65z"/>
+		<path id="Shape 1 copy 13" class="s7" d="m3658.31 812.06l1.64 2.15-123.64 94.87-1.65-2.14zm0 0l1.65 2.14-123.65 94.88-1.64-2.14z"/>
+		<path id="Shape 1 copy 14" class="s7" d="m3805.85 1032.83l1.36 2.33-134.98 77.93-1.35-2.34zm0 0l1.35 2.34-134.97 77.93-1.35-2.34z"/>
+		<path id="Shape 1 copy 15" class="s7" d="m3923.32 1270.96l1.04 2.49-143.99 59.64-1.04-2.49zm0 0l1.04 2.49-143.99 59.65-1.04-2.5z"/>
+		<path id="Shape 1 copy 16" class="s7" d="m4008.7 1522.38l0.7 2.61-150.54 40.34-0.7-2.61zm0 0l0.7 2.61-150.54 40.34-0.7-2.61z"/>
+		<path id="Shape 1 copy 17" class="s7" d="m4060.54 1782.8l0.35 2.68-154.52 20.34-0.35-2.67zm0 0l0.35 2.67-154.52 20.35-0.35-2.68z"/>
+		<path id="Shape 1 copy 19" class="s7" d="m4060.6 2312.72l-0.35 2.68-154.52-20.34 0.35-2.68zm0 0l-0.35 2.68-154.52-20.35 0.35-2.67z"/>
+		<path id="Shape 1 copy 20" class="s7" d="m4008.83 2573.15l-0.7 2.61-150.54-40.34 0.7-2.6zm0 0l-0.7 2.6-150.55-40.33 0.7-2.61z"/>
+		<path id="Shape 1 copy 21" class="s7" d="m3923.51 2824.6l-1.04 2.5-143.99-59.65 1.04-2.49zm0 0l-1.04 2.49-143.99-59.64 1.04-2.49z"/>
+		<path id="Shape 1 copy 22" class="s7" d="m3806.09 3062.76l-1.35 2.34-134.97-77.93 1.35-2.34zm0 0l-1.35 2.34-134.97-77.92 1.35-2.34z"/>
+		<path id="Shape 1 copy 23" class="s7" d="m3658.6 3283.56l-1.64 2.14-123.65-94.88 1.64-2.14zm0 0l-1.64 2.14-123.65-94.88 1.65-2.14z"/>
+		<path id="Shape 1 copy 25" class="s7" d="m3283.94 3658.31l-2.15 1.64-94.87-123.64 2.14-1.65zm0 0l-2.14 1.65-94.88-123.65 2.14-1.64z"/>
+		<path id="Shape 1 copy 26" class="s7" d="m3063.17 3805.85l-2.33 1.36-77.93-134.98 2.34-1.35zm0 0l-2.34 1.35-77.93-134.97 2.34-1.35z"/>
+		<path id="Shape 1 copy 27" class="s7" d="m2825.04 3923.32l-2.49 1.04-59.64-143.99 2.49-1.04zm0 0l-2.49 1.04-59.65-143.99 2.5-1.04z"/>
+		<path id="Shape 1 copy 28" class="s7" d="m2573.62 4008.7l-2.61 0.7-40.34-150.54 2.61-0.7zm0 0l-2.61 0.7-40.34-150.54 2.61-0.7z"/>
+		<path id="Shape 1 copy 29" class="s7" d="m2313.2 4060.54l-2.68 0.35-20.34-154.52 2.67-0.35zm0 0l-2.67 0.35-20.35-154.52 2.68-0.35z"/>
+		<path id="Shape 1 copy 31" class="s7" d="m1783.28 4060.6l-2.68-0.35 20.34-154.52 2.68 0.35zm0 0l-2.68-0.35 20.35-154.52 2.67 0.35z"/>
+		<path id="Shape 1 copy 32" class="s7" d="m1522.85 4008.83l-2.61-0.7 40.34-150.54 2.6 0.7zm0 0l-2.6-0.7 40.33-150.55 2.61 0.7z"/>
+		<path id="Shape 1 copy 33" class="s7" d="m1271.4 3923.51l-2.5-1.04 59.65-143.99 2.49 1.04zm0 0l-2.49-1.04 59.64-143.99 2.49 1.04z"/>
+		<path id="Shape 1 copy 34" class="s7" d="m1033.24 3806.09l-2.34-1.35 77.93-134.97 2.34 1.35zm0 0l-2.34-1.35 77.92-134.97 2.34 1.35z"/>
+		<path id="Shape 1 copy 35" class="s7" d="m812.44 3658.6l-2.14-1.64 94.88-123.65 2.14 1.64zm0 0l-2.14-1.64 94.88-123.65 2.14 1.65z"/>
+		<path id="Shape 1 copy 37" class="s7" d="m437.69 3283.94l-1.64-2.15 123.64-94.87 1.65 2.14zm0 0l-1.65-2.14 123.65-94.88 1.64 2.14z"/>
+		<path id="Shape 1 copy 38" class="s7" d="m290.15 3063.17l-1.36-2.33 134.98-77.93 1.35 2.34zm0 0l-1.35-2.34 134.97-77.93 1.35 2.34z"/>
+		<path id="Shape 1 copy 39" class="s7" d="m172.68 2825.04l-1.04-2.49 143.99-59.64 1.04 2.49zm0 0l-1.04-2.49 143.99-59.65 1.04 2.5z"/>
+		<path id="Shape 1 copy 40" class="s7" d="m87.3 2573.62l-0.7-2.61 150.54-40.34 0.7 2.61zm0 0l-0.7-2.61 150.54-40.34 0.7 2.61z"/>
+		<path id="Shape 1 copy 41" class="s7" d="m35.46 2313.2l-0.35-2.68 154.52-20.34 0.35 2.67zm0 0l-0.35-2.67 154.52-20.35 0.35 2.68z"/>
+		<path id="Shape 1 copy 43" class="s7" d="m35.4 1783.28l0.35-2.68 154.52 20.34-0.35 2.68zm0 0l0.35-2.68 154.52 20.35-0.35 2.67z"/>
+		<path id="Shape 1 copy 44" class="s7" d="m87.17 1522.85l0.7-2.61 150.54 40.34-0.7 2.6zm0 0l0.7-2.6 150.55 40.33-0.7 2.61z"/>
+		<path id="Shape 1 copy 45" class="s7" d="m172.49 1271.4l1.04-2.5 143.99 59.65-1.04 2.49zm0 0l1.04-2.49 143.99 59.64-1.04 2.49z"/>
+		<path id="Shape 1 copy 46" class="s7" d="m289.91 1033.24l1.35-2.34 134.97 77.93-1.35 2.34zm0 0l1.35-2.34 134.97 77.92-1.35 2.34z"/>
+		<path id="Shape 1 copy 47" class="s7" d="m437.4 812.44l1.64-2.14 123.65 94.88-1.64 2.14zm0 0l1.64-2.14 123.65 94.88-1.65 2.14z"/>
+		<path id="Shape 1 copy 49" class="s7" d="m812.06 437.69l2.15-1.64 94.87 123.64-2.14 1.65zm0 0l2.14-1.65 94.88 123.65-2.14 1.64z"/>
+		<path id="Shape 1 copy 50" class="s7" d="m1032.83 290.15l2.33-1.36 77.93 134.98-2.34 1.35zm0 0l2.34-1.35 77.93 134.97-2.34 1.35z"/>
+		<path id="Shape 1 copy 51" class="s7" d="m1270.96 172.68l2.49-1.04 59.64 143.99-2.49 1.04zm0 0l2.49-1.04 59.65 143.99-2.5 1.04z"/>
+		<path id="Shape 1 copy 52" class="s7" d="m1522.38 87.3l2.61-0.7 40.34 150.54-2.61 0.7zm0 0l2.61-0.7 40.34 150.54-2.61 0.7z"/>
+		<path id="Shape 1 copy 53" class="s7" d="m1782.8 35.46l2.68-0.35 20.34 154.52-2.67 0.35zm0 0l2.67-0.35 20.35 154.52-2.68 0.35z"/>
+		<path id="Shape 1 copy 55" class="s7" d="m2312.72 35.4l2.68 0.35-20.34 154.52-2.68-0.35zm0 0l2.68 0.35-20.35 154.52-2.67-0.35z"/>
+	</g>
+</svg>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Simple Altimeter</string>
+
+    <string name="compass_dial">Compass Dial</string>
+    <string name="compass_marker">Compass Marker</string>
+
+
+
+</resources>
